@@ -1,0 +1,36 @@
+.player-item {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.player-item img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.player-name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.player-position {
+    font-weight: normal;
+    color: gray;
+}
+
+.player-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
